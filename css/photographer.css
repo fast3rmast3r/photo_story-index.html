@@ -1,0 +1,14 @@
+/* CSS Document */
+@keyframes slideMoFo {0%{transform: translateY(100%);}100%{transform: translateY(0);}}
+div {animation: 1s ease-out 0s 1 slideMoFo;}
+
+body {background-image: url("../img/gray-painted-background_53876-94041.jpg"); background-color: #707070;}
+
+#picture_position_1{position: absolute; top: 150px; left: 200px;}
+#picture_position_2{position: absolute; top: 110px; left: 800px;}
+
+#nav {position: absolute; top: 50px; left: 350px; text-align:center; font-size: 24pt; font-weight:bold;}
+#nav ul {text-align: center; list-style-type: none; margin: 0px; padding: 0px;}
+#nav ul li {display: inline; padding-right: 70px}
+#nav ul li a {padding: 5px; background-color: #323232; color: #646464; display: inline-block; text-decoration: none; width: 200px}
+#nav ul li a:hover{background-color: #646464; color: #323232;}
