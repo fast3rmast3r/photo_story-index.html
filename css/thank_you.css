@@ -1,14 +1,73 @@
-@keyframes slideMoFo {0%{transform: translateY(-100%);}100%{transform: translateY(0);}}
-div {animation: 1s ease-out 0s 1 slideMoFo;}
-@keyframes slideMoFoNav {0%{transform: translateY(-1000%);}100%{transform: translateY(0);}}
-div ul{animation: 20s ease-out 0s 1 slideMoFoNav;}
+@keyframes slideMoFo {
+  0% {
+    transform: translateY(-100%);
+  }
 
-body {background-image: url("../img/gray-painted-background_53876-94041.jpg"); background-color: #707070;}
+  100% {
+    transform: translateY(0);
+  }
+}
 
-#picture {position: absolute; top: 200px; left: 350px;}
+div {
+  animation: 1s ease-out 0s 1 slideMoFo;
+}
 
-#nav {position: absolute; top: 50px; left: 650px; text-align:center; font-size: 24pt; font-weight:bold;}
-#nav ul {text-align: center; list-style-type: none; margin: 0px; padding: 0px;}
-#nav ul li {display: inline; padding-right: 70px}
-#nav ul li a {padding: 5px; background-color: #323232; color: #646464; display: inline-block; text-decoration: none; width: 200px}
-#nav ul li a:hover{background-color: #646464; color: #323232;}
+@keyframes slideMoFoNav {
+  0% {
+    transform: translateY(-1000%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+div ul {
+  animation: 20s ease-out 0s 1 slideMoFoNav;
+}
+
+body {
+  background-image: url("../img/gray-painted-background_53876-94041.jpg");
+  background-color: #707070;
+}
+
+#picture {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+}
+
+#nav {
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+#nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav ul li {
+  display: inline;
+  padding-right: 70px;
+}
+
+#nav ul li a {
+  padding: 5px;
+  background-color: #323232;
+  color: #646464;
+  display: inline-block;
+  text-decoration: none;
+  width: 200px;
+}
+
+#nav ul li a:hover {
+  background-color: #646464;
+  color: #323232;
+}

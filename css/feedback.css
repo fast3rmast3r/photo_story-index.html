@@ -1,21 +1,125 @@
 /* CSS Document */
-@keyframes slideMoFo {0%{transform: translateY(100%);}100%{transform: translateY(0);}}
-div {animation: 1s ease-out 0s 1 slideMoFo;}
-@keyframes slideMoFoNav {0%{transform: translateX(200%);}100%{transform: translateX(0);}}
-div ul{animation: 2s ease-out 0s 1 slideMoFoNav;}
+@keyframes slideMoFo {
+  0% {
+    transform: translateY(100%);
+  }
 
-body {background-image: url("../img/gray-painted-background_53876-94041.jpg"); background-color: #707070;}
+  100% {
+    transform: translateY(0);
+  }
+}
 
-#form {position: absolute; top: 50px; left: 100px;}
-::placeholder {color:black;}
-input[type=text], select, textarea {font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; font-size: 16pt; vertical-align: middle; background-color: grey; color: black; width: 100%; padding: 20px; border: 3px solid black; border-radius: 5px; box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: none;}
-input[type=submit] {font-family: Tahoma, Verdana, Segoe, sans-serif; font-weight: lighter; background-color: grey; color: black; padding: 12px 20px; border: solid 2px black; border-radius: 5px; cursor: pointer; font-size: 17pt; font-weight: lighter;}
-input[type=submit]:hover {background-color: #676767; color: #ACACAC;}
-label {font-family: Tahoma, Verdana, Segoe, sans-serif; font-weight: lighter; font-size: 18pt;}
-#picture {position: absolute; top: 40px; left: 800px; display: block;}
+div {
+  animation: 1s ease-out 0s 1 slideMoFo;
+}
 
-#nav {position: absolute; top: 600px; left: 350px; text-align:center; font-size: 24pt; font-weight:bold;}
-#nav ul {text-align: center; list-style-type: none; margin: 0px; padding: 0px;}
-#nav ul li {display: inline; padding-right: 70px}
-#nav ul li a {padding: 5px; background-color: #323232; color: #646464; display: inline-block; text-decoration: none; width: 200px}
-#nav ul li a:hover{background-color: #646464; color: #323232;}
+@keyframes slideMoFoNav {
+  0% {
+    transform: translateX(200%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+div ul {
+  animation: 2s ease-out 0s 1 slideMoFoNav;
+}
+
+body {
+  background-image: url("../img/gray-painted-background_53876-94041.jpg");
+  background-color: #707070;
+}
+
+#form {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+::placeholder {
+  color: black;
+}
+
+input[type=text], select, textarea {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 16pt;
+  vertical-align: middle;
+  background-color: grey;
+  color: black;
+  width: 100%;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+input[type=submit] {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-weight: lighter;
+  background-color: grey;
+  color: black;
+  padding: 12px 20px;
+  border: solid 2px black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17pt;
+  font-weight: lighter;
+}
+
+input[type=submit]:hover {
+  background-color: #676767;
+  color: #ACACAC;
+}
+
+label {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-weight: lighter;
+  font-size: 18pt;
+}
+
+#picture {
+  position: absolute;
+  top: 40px;
+  left: 800px;
+  display: block;
+}
+
+#nav {
+  position: absolute;
+  top: 600px;
+  left: 350px;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+#nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav ul li {
+  display: inline;
+  padding-right: 70px;
+}
+
+#nav ul li a {
+  padding: 5px;
+  background-color: #323232;
+  color: #646464;
+  display: inline-block;
+  text-decoration: none;
+  width: 200px;
+}
+
+#nav ul li a:hover {
+  background-color: #646464;
+  color: #323232;
+}

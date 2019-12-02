@@ -1,21 +1,112 @@
 /* CSS Document */
-@keyframes slideMoFoNav {0%{transform: translateY(700%);}100%{transform: translateY(0);}}
-div ul {animation: 20s ease-out 0s 1 slideMoFoNav;}
-@keyframes slideMoFoText {0%{transform: translateY(1000%);}100%{transform: translateY(0);}}
-div p {animation: 1s ease-out 0s 1 slideMoFoText;}
-@keyframes slideMoFoPicture {0%{transform: translateY(-400%);}100%{transform: translateY(0);}}
-div img {animation: 1s ease-out 0s 1 slideMoFoPicture;}
+@keyframes slideMoFoNav {
+  0% {
+    transform: translateY(700%);
+  }
 
-body {background-image: url("../img/gray-painted-background_53876-94041.jpg"); background-color: #707070;}
+  100% {
+    transform: translateY(0);
+  }
+}
 
-#picture_position{position: absolute; top: 50px; left: 475px;}
-#text_position_1{position: absolute; top: 230px; left: 80px;}
-#text_position_2{position: absolute; top: 240px; left: 1100px;}
-#text_position_3{position: absolute; top: 475px; left: 330px;}
-p{font-family: font-family: "Arial Black"; font-style: italic; font-size: 30px; font-weight: lighter;}
+div ul {
+  animation: 20s ease-out 0s 1 slideMoFoNav;
+}
 
-#nav {position: absolute; top: 630px; left: 245px; text-align:center; font-size: 24pt; font-weight:bold;}
-#nav ul {text-align: center; list-style-type: none; margin: 0px; padding: 0px;}
-#nav ul li {display: inline; padding-right: 70px}
-#nav ul li a {padding: 5px; background-color: #323232; color: #646464; display: inline-block; text-decoration: none; width: 200px}
-#nav ul li a:hover{background-color: #646464; color: #323232;}
+@keyframes slideMoFoText {
+  0% {
+    transform: translateY(1000%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+div p {
+  animation: 1s ease-out 0s 1 slideMoFoText;
+}
+
+@keyframes slideMoFoPicture {
+  0% {
+    transform: translateY(-400%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+div img {
+  animation: 1s ease-out 0s 1 slideMoFoPicture;
+}
+
+body {
+  background-image: url("../img/gray-painted-background_53876-94041.jpg");
+  background-color: #707070;
+}
+
+#picture_position {
+  position: absolute;
+  top: 50px;
+  left: 475px;
+}
+
+#text_position_1 {
+  position: absolute;
+  top: 230px;
+  left: 80px;
+}
+
+#text_position_2 {
+  position: absolute;
+  top: 240px;
+  left: 1100px;
+}
+
+#text_position_3 {
+  position: absolute;
+  top: 475px;
+  left: 330px;
+}
+
+p {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#nav {
+  position: absolute;
+  top: 630px;
+  left: 245px;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+#nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav ul li {
+  display: inline;
+  padding-right: 70px;
+}
+
+#nav ul li a {
+  padding: 5px;
+  background-color: #323232;
+  color: #646464;
+  display: inline-block;
+  text-decoration: none;
+  width: 200px;
+}
+
+#nav ul li a:hover {
+  background-color: #646464;
+  color: #323232;
+}
