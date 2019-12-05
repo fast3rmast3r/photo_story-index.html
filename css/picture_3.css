@@ -1,49 +1,44 @@
-/* CSS Document */
-@keyframes slideMoFoNav {
-  0% {
-    transform: translateY(700%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-div ul {
-  animation: 20s ease-out 0s 1 slideMoFoNav;
-}
-
-@keyframes slideMoFoText {
-  0% {
-    transform: translateY(1000%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-div p {
-  animation: 1s ease-out 0s 1 slideMoFoText;
-}
-
-@keyframes slideMoFoPicture {
-  0% {
-    transform: translateY(-400%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-div img {
-  animation: 1s ease-out 0s 1 slideMoFoPicture;
-}
-
 body {
   background-image: url("../img/gray-painted-background_53876-94041.jpg");
   background-color: #707070;
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+div p {
+  animation: 1s ease-out 0s 1 slideText;
+}
+
+@keyframes slideNav {
+  0% {
+    transform: translateX(-5000%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+div ul {
+  animation: 30s ease-out 0s 1 slideNav;
+}
+
+@keyframes fadePicture {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+div img {
+  animation: 2s ease-in 0s 1 fadePicture;
 }
 
 #picture_position {

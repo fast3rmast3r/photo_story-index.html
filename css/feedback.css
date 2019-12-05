@@ -1,35 +1,44 @@
-/* CSS Document */
-@keyframes slideMoFo {
-  0% {
-    transform: translateY(100%);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
+body {
+  background-image: url("../img/gray-painted-background_53876-94041.jpg");
+  background-color: #707070;
 }
 
-div {
-  animation: 1s ease-out 0s 1 slideMoFo;
-}
-
-@keyframes slideMoFoNav {
+@keyframes slideForm {
   0% {
-    transform: translateX(200%);
+    transform: translateX(-100%);
   }
 
   100% {
     transform: translateX(0);
   }
 }
-
-div ul {
-  animation: 2s ease-out 0s 1 slideMoFoNav;
+div form {
+  animation: 1s ease-out 0s 1 slideForm;
 }
 
-body {
-  background-image: url("../img/gray-painted-background_53876-94041.jpg");
-  background-color: #707070;
+@keyframes slideNav {
+  0% {
+    transform: translateX(35%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+div ul {
+  animation: 2s ease-out 0s 1 slideNav;
+}
+
+@keyframes fadePicture {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+div img {
+  animation: 2s ease-in 0s 1 fadePicture;
 }
 
 #form {
@@ -42,8 +51,11 @@ body {
   color: black;
 }
 
-input[type=text], select, textarea {
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+input[type="text"],
+select,
+textarea {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond,
+    "Times New Roman", serif;
   font-size: 16pt;
   vertical-align: middle;
   background-color: grey;
@@ -58,7 +70,7 @@ input[type=text], select, textarea {
   resize: none;
 }
 
-input[type=submit] {
+input[type="submit"] {
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-weight: lighter;
   background-color: grey;
@@ -71,9 +83,9 @@ input[type=submit] {
   font-weight: lighter;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #676767;
-  color: #ACACAC;
+  color: #acacac;
 }
 
 label {

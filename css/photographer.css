@@ -1,21 +1,32 @@
-/* CSS Document */
-@keyframes slideMoFo {
+body {
+  background-image: url("../img/gray-painted-background_53876-94041.jpg");
+  background-color: #707070;
+}
+
+@keyframes slideImg {
   0% {
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
 
   100% {
     transform: translateY(0);
   }
 }
-
 div {
-  animation: 1s ease-out 0s 1 slideMoFo;
+  animation: 1s ease-out 0s 1 slideImg;
 }
 
-body {
-  background-image: url("../img/gray-painted-background_53876-94041.jpg");
-  background-color: #707070;
+@keyframes slideNav {
+  0% {
+    transform: translateY(-1000%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+div ul {
+  animation: 2s ease-out 0s 1 slideNav;
 }
 
 #picture_position_1 {

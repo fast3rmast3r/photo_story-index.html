@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-<html lang="bg">
-	<head>
-		<title>Feedback</title>
-		<meta charset ="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<link href="../css/feedback.css" rel="stylesheet" type="text/css">
-					<link rel="icon" type="image/png" href="../img/favicon.png" sizes="32x32">
-					</head>
-					<body>
-						<div id="form">
-							<form target="_self" action="thank_you.html">
-								<label for="fname">First Name</label>
-								<input id="fname" type="text" name="firstname" placeholder="Your first name...">
-									<br>
-										<label for="lname">Last Name</label>
-										<input id="lname" type="text" name="lastname" placeholder="Your last name...">
-											<br>
-												<label>Thoughts</label>
-												<textarea name="thoughts" placeholder="Your thoughts..." style="height:200px"></textarea>
-												<input id="submit" type="submit" value="Submit" onclick="showPicture()">
-												</form>
-											</div>
-											<div id="picture">
-												<img src="../img/classica_smiley-face-1_simple-black_512x512.png" alt="Thank you. :)" width="520">
-												</div>
-												<div id="nav">
-													<ul>
-														<li>
-															<a target="_self" href="../index.html">Home</a>
-														</li>
-														<li>
-															<a target="_self" href="more_pictures.html">More Pictures</a>
-														</li>
-														<li>
-															<a target="_self" href="photographer.html">Photographer</a>
-														</li>
-													</ul>
-												</div>
-											</body>
-										</html>
+<html lang="en">
+  <head>
+    <title>Feedback</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/feedback.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="../img/favicon.png" sizes="32x32" />
+  </head>
+  <body>
+    <div id="form">
+      <form target="_self" action="thank_you.html">
+        <label for="fname">First Name</label>
+        <input
+          id="fname"
+          type="text"
+          name="firstname"
+          placeholder="Your first name..."
+        />
+        <br />
+        <label for="lname">Last Name</label>
+        <input
+          id="lname"
+          type="text"
+          name="lastname"
+          placeholder="Your last name..."
+        />
+        <br />
+        <label>Thoughts</label>
+        <textarea
+          name="thoughts"
+          placeholder="Your thoughts..."
+          style="height:200px"
+        ></textarea>
+        <input
+          id="submit"
+          type="submit"
+          value="Submit"
+          onclick="showPicture()"
+        />
+      </form>
+    </div>
+    <div id="picture">
+      <img
+        src="../img/classica_smiley-face-1_simple-black_512x512.png"
+        alt="Thank you. :)"
+        width="520"
+      />
+    </div>
+    <div id="nav">
+      <ul>
+        <li>
+          <a target="_self" href="../index.html">Home</a>
+        </li>
+        <li>
+          <a target="_self" href="more_pictures.html">More Pictures</a>
+        </li>
+        <li>
+          <a target="_self" href="photographer.html">Photographer</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

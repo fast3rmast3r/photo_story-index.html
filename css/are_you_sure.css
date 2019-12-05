@@ -29,10 +29,13 @@
   transition: all 500ms;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   position: absolute;
   top: 720px;
   left: 1500px;
-  color: #EAEAEA;
+  color: #eaeaea;
   text-decoration: none;
 }
