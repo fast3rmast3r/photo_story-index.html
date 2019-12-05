@@ -1,5 +1,9 @@
-var click_on_me = document.getElementById("click_on_me");
+var white_dove = document.getElementById("white_dove");
+document.onclick = function() {
+  white_dove.play();
+};
 
+var click_on_me = document.getElementById("click_on_me");
 click_on_me.onmouseover = function() {
   var x = Math.floor(Math.random() * 400);
   var y = Math.floor(Math.random() * 400);
