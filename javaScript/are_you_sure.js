@@ -1,7 +1,7 @@
 var white_dove = document.getElementById("white_dove");
-document.onclick = function() {
+window.addEventListener("click", function() {
   white_dove.play();
-};
+});
 
 var click_on_me = document.getElementById("click_on_me");
 click_on_me.onmouseover = function() {

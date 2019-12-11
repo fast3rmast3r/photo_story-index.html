@@ -1,7 +1,7 @@
 var dmx = document.getElementById("dmx");
-document.onclick = function() {
+window.addEventListener("click", function() {
   dmx.play();
-};
+});
 
 setInterval(function randomColor() {
   var randomColor = Math.floor(Math.random() * 16777215).toString(16);
